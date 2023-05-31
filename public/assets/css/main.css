@@ -1,0 +1,135 @@
+body {
+  padding-left: 400px;
+  width: 950px;
+}
+.navbar {
+  
+  border-bottom: 3px solid orange;
+  padding: 10px;
+  font-family: "Courier New";
+  font-size: 22px;
+}
+.block {
+  display: block;
+  float: right;
+  justify-self: space-between;
+}
+
+.nav {
+  margin: 25px;
+}
+section {
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: azure;
+  border: 1px solid orange;
+  border-radius: 4px;
+  display: flex;
+}
+.barStiory {
+  width: 65%;
+}
+.story {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  padding: 16px;
+  background-color: azure;
+  border-radius: 3px;
+}
+.story img {
+  border-radius: 50%;
+  border: 2px solid #c62d8f;
+  padding: 1px;
+  object-fit: cover;
+}
+.feed img {
+  width: 90%;
+  margin-left: 30px;
+}
+.feed2 img{
+  border-radius: 20px;
+}
+/*post*/
+.post-left img{
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #c62d8f;
+  padding: 1px;
+}
+.post-left{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.login{
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+}
+.feed {
+  margin-left: 30px;
+  margin: 25px 0;
+  border-radius: 3px ;
+  border: 1px solid orange;
+  margin-bottom: 30px;
+}
+.right{
+    display: flex;
+}
+.detail{
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+.right{
+    align-items: center;
+}
+.like-comment{
+    margin-left: 30px;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.save{
+    float: right;
+    margin-right: 30px;
+}
+.post-caption{
+    margin-left: 30px;
+}
+.post-caption .name{
+    font-weight: bold;
+}
+.class-right
+{
+    display: flex;
+}
+.add-comment{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.rigthSide{
+    float: right;
+}
+.text{
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.smile{
+    font-size: 22px;
+}
+.Name{
+  padding-left: 10px;
+}
+.col{
+  font-size: 22px;
+}
+.login a{
+  text-decoration: none;
+  color : white;
+}
